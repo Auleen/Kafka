@@ -17,8 +17,10 @@
 
 .btnAbt{
     display: flex;
-    font-family:'Arial';
-    font-weight: 200;
+    
+    font-family:'Fira Sans Extra Condensed','Courier New', Courier, monospace;
+    font-weight: 300;
+    font-size: 1.2rem;
     background-image: linear-gradient(-225deg, #650183 0%, #ff5353 100%);
     margin-left: 3rem;
 }
@@ -29,7 +31,11 @@
 }
 
 .Text{
-    display: flex;
+    display: block;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 5rem;
+}
+
+.aboutHead{
+    font-size: 4rem;
 }
